@@ -1,0 +1,24 @@
+{
+  "name": "arabic0513/laravel_datatable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "ArabicDev",
+      "email": "sardoryusupov230@gmail.com"
+    }
+  ],
+  "require": {},
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Teamprodev\\Datatable\\Providers\\DatatableServiceProvider"
+      ]
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "Teamprodev\\Datatable\\": "src/"
+    }
+  },
+  "minimum-stability": "stable"
+}
